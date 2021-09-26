@@ -45,6 +45,10 @@ img{
    
     color: #000000;
 }
+.link {
+    color: green;
+    font-family: 'Poppins', sans-serif;
+}
 .profile input[type=submit]{
     width: 270px;
     height: 40px;
