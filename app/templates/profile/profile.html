@@ -21,14 +21,14 @@
             {% endif %}
             
             {% if user == current_user %}
-            <a href="{{url_for('main.update_profile',uname=user.username)}}" >Add or Edit your Bio</a>
+            <a class="link" href="{{url_for('main.update_profile',uname=user.username)}}" >Edit your Bio</a>
             {% endif %} 
             <br><br>
             {% if user.profile_pic_path %}
             <img src="{{url_for('static',filename=user.profile_pic_path)}}" alt="" class="img-thumbnail">
             {%else%}
             <p >You have no profile picture</p>
-            <p >Add a profile picture</p>
+            <p >Add profile picture</p>
 
             {% if user == current_user %}
                
