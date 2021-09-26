@@ -16,13 +16,13 @@ body,
 }
 
 a {
-    color: #0c0c0c;
+    color: white;
     font-family: 'Poppins', sans-serif;
 }
 
 .navbar {
-    background-color: black;
-    color: white;
+    background-color: black; 
+    color: whitesmoke;
     border-radius: 0;
     margin: 0 !important;
     z-index: 1;
